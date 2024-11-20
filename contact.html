@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cafe Delight - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo-title">
+                <img src="./assets/Logoo.jpg" height="80" alt="Cafe Delight logo">
+                <h1>Cafe Delight</h1>
+            </div>
+            <p class="tagline">Where Every <span class="sip">Sip</span> Tells a Story</p>
+        </div>
+        <div class="navlog">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="form">
+             <form class="search-form">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+             </form>
+            </div>
+        </div>
+    </header>
+    <article>
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+        
+        <section class="contact-info">
+            <h2>Get in Touch with Cafe Delight</h2>
+            <p>At Cafe Delight, we always love to hear from our customers. Whether you have a question, want to share feedback, or simply want to say hello, we are here for you! Feel free to reach out to us through any of the following methods:</p>
+            
+            <h3>Location</h3>
+            <p>Visit us at our cozy cafe located in the heart of the city. Enjoy a warm cup of coffee, delicious food, and a welcoming atmosphere.</p>
+            <address>
+                <strong>Cafe Delight</strong><br>
+                At Cafe Mall,<br>
+                Cafe Delight,<br>
+                Zip Code: 123 567<br>
+                <a href="https://maps.google.com" target="_blank">Open in Google Maps</a>
+            </address>
+            
+            <h3>Business Hours</h3>
+            <p>We are open every day, offering a perfect spot for your coffee breaks and meals!</p>
+            <ul>
+                <li><strong>Monday – Friday:</strong> 8:00 AM – 8:00 PM</li>
+                <li><strong>Saturday – Sunday:</strong> 9:00 AM – 9:00 PM</li>
+            </ul>
+
+            <h3>Phone & Email</h3>
+            <p>If you'd prefer to reach us by phone or email, here are our contact details:</p>
+            <ul>
+                <li><strong>Phone:</strong> 1234 345 5678</li>
+                <li><strong>Email:</strong> <a href="mailto:info@cafedelight.com">chaicoffee@cafedelight.com</a></li>
+            </ul>
+            
+            <h3>Social Media</h3>
+            <p>You can also connect with us on our social media platforms for the latest updates, promotions, and more:</p>
+            <ul class="links">
+                <li><a href="https://www.facebook.com" target="_blank"><img src="./assets/fbblogo.jpg" height="50" alt="Facebook"></a></li>
+                <li><a href="https://instagram.com" target="_blank"><img src="./assets/instalogo.jpg" height="50" alt="Instagram"></a></li>
+                <li><a href="https://x.com" target="_blank"><img src="./assets/x logo.webp" height="50" alt="X"></a></li>
+                <li><a href="https://www.linkedin.com" target="_blank"><img src="./assets/linkedin logo.webp" height="57" alt="LinkedIn"></a></li>
+            </ul>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <p>If you have any questions, suggestions, or want to provide feedback, please feel free to use the form below. We’ll get back to you as soon as possible!</p>
+            
+            <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required placeholder="Write your message here..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <p>Before reaching out, you might find answers to some of your questions in our FAQ section:</p>
+            
+            <ul>
+                <li><strong>Do you offer vegan options?</strong> Yes, we have a wide range of vegan dishes and drinks on our menu. Please ask our staff for recommendations.</li>
+                <li><strong>Can I book a table in advance?</strong> Yes, you can reserve a table by calling us at +1 (123) 456-7890 or sending us an email at <a href="mailto:info@cafedelight.com">chaicoffee@cafedelight.com</a>.</li>
+                <li><strong>Do you offer delivery?</strong> Currently, we do not offer delivery, but we hope to offer this service in the future. Stay tuned!</li>
+                <li><strong>Can I host an event at Cafe Delight?</strong> Absolutely! We offer event hosting for parties, meetings, and special occasions. Contact us for more details.</li>
+            </ul>
+        </section>
+    </article>
+    <footer class="footer-container">
+        <section class="final-container">
+        <a href="Privacy and policy.html">Privacy Policy</a>
+        <a href="Terms and Conditions.html">Terms and Conditions</a>
+        <p>&copy; 2024 Cafe Delight. All rights reserved.</p>
+        </section>
+    </footer>
+</body>
+</html>
